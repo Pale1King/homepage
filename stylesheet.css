@@ -1,6 +1,7 @@
 body{
-    background-color: #010005;
+    background-color: black;
     margin: 0px;
+    scroll-behavior: smooth;
 }
 /* creates the background color for the site */
 .mainHeader{
@@ -8,24 +9,34 @@ body{
     color: whitesmoke;
     font-size: 50px;
     font-family: 'Courier New', monospace;
+    display: relative;
 }
 /* the actual header text */
 .headerButton{
-    background-color: rgb(12, 12, 12);
-    padding: 15px 60px;
-    color: green;
+    background-color: rgb(12, 12, 12, 0.7);
+    padding: 15px 50px;
+    color: white;
     text-align: center;
+    align-items: center;
     display: inline-block;
     border: none;
     display: flex table;
-    font-size: 15px
+    font-size: 15px;
+    margin-top: 30px;
+    
     /* how all the buttons in the header will look */
 }
-.topPart{
-    background-color:rgb(17, 17, 17);
+.mainheaderDiv{
+    background-color:rgb(17, 17, 17,0.5);
     border: none;
     outline: none;
     font-size: 0;
+    position:fixed;
+    align-content: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0px;
+    
     /* 'top part' as in the header of the site */
 }
 button:hover{
@@ -38,3 +49,27 @@ button:hover{
     float: right;
 }
 /* the About button on the right */
+.hellcatImage{
+    width: 100%;
+}
+.SpecDivLeft{
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', monospace;
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+.SpecDivRight{
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', monospace;
+    margin-left: 60%;
+    margin-bottom: 300px;
+}
+.HellcatEngineBay{
+    height: 400px;
+    width: 500px;
+    position:relative;
+    left: 50%;
+    top: 100%;
+}
