@@ -1,0 +1,40 @@
+body{
+    background-color: #010005;
+    margin: 0px;
+}
+/* creates the background color for the site */
+.mainHeader{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: 'Courier New', monospace;
+}
+/* the actual header text */
+.headerButton{
+    background-color: rgb(12, 12, 12);
+    padding: 15px 60px;
+    color: green;
+    text-align: center;
+    display: inline-block;
+    border: none;
+    display: flex table;
+    font-size: 15px
+    /* how all the buttons in the header will look */
+}
+.topPart{
+    background-color:rgb(17, 17, 17);
+    border: none;
+    outline: none;
+    font-size: 0;
+    /* 'top part' as in the header of the site */
+}
+button:hover{
+    cursor: pointer;
+    transition-duration: 0.2s;
+    background-color: rgb(3, 0, 12);
+}
+/* hover over button function */
+#aboutButton{
+    float: right;
+}
+/* the About button on the right */
